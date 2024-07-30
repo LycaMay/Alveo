@@ -32,7 +32,7 @@
 </head>
 
 <body>
-    {{-- <div class="container-xxl bg-white p-0"> --}}
+    <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -43,14 +43,14 @@
 
 
         <!-- Navbar Start -->
-        {{-- <div class="container-fluid nav-bar bg-transparent">
-            <nav class="bg-transparent navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
                 <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
                     <div class="rounded-circle overflow-hidden d-flex justify-content-center align-items-center">
                         <img class="img-fluid" src="{{ asset('img/LOGO.png') }}" alt="Icon" style="width: 40px; height: 40px;">
                     </div>
                     <br>
-                    <h1 class="m-0" style="color: rgb(12, 12, 12); margin-left:10px;">A L V E O</h1>
+                    <h1 class="m-0" style="color: rgb(12, 12, 12); margin-left:10px;">ALVEO</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -68,22 +68,29 @@
                     <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Add Property</a>
                 </div>
             </nav>
-        </div> --}}
+        </div>
         <!-- Navbar End -->
 
 
         <!-- Header Start -->
-        
-        <div class="video-container">
-            <video class="background-video" autoplay muted loop>
-                <source src="{{ asset('vid/An_AgESrPxjyXn4tomK7LIY9cKsp2sOHOesShBtPQK5oBC9hFMraGL0Wso2ThItRZMIu58Ns6-yZqvNh4NbBaTfv.mp4') }}" type="video/mp4">
-            </video>
-            <div class="content">
+        <div class="container-fluid header bg-white p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
-                    <!-- Move the <h1> element here -->
-                        {{-- <h1 class="mb-4" ><span style="color: white">A L V E O  L A N D</span></h1>
-                        <h2 class="display-5 animated fadeIn mb-4" style="color: white">live well all Across the PHILIPPINES</h2> --}}
-                    {{-- <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a> --}}
+                    <h1 class="display-5 animated fadeIn mb-4">Find A <span class="text-primary">Perfect Home</span> To Live With Your Family</h1>
+                    <p class="animated fadeIn mb-4 pb-2">One of the
+                        Philippines’
+                        leading Real estate DeveloperS</p>
+                    <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a>
+                </div>
+                <div class="col-md-6 animated fadeIn">
+                    <div class="owl-carousel header-carousel">
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -881,7 +888,7 @@
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-    {{-- </div> --}}
+    </div>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
